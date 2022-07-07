@@ -1,0 +1,26 @@
+{
+  "name": "prueba-mask",
+  "version": "1.0.0",
+  "description": "preuba MetaMask",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatteoMurcia/prueba-mask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatteoMurcia/prueba-mask/issues"
+  },
+  "homepage": "https://github.com/MatteoMurcia/prueba-mask#readme",
+  "dependencies": {
+    "@metamask/legacy-web3": "^2.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "web3": "^1.7.4"
+  }
+}
